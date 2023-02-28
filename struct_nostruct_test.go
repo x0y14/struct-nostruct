@@ -1,0 +1,1 @@
+package struct_nostruct_test
