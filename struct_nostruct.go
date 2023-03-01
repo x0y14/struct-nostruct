@@ -9,8 +9,12 @@ package struct_nostruct
 //	]
 
 // define(str):
-//	struct_name_1={param_name_1:type1,param_name_2:type2=default_value_1}, ...
-// param_table:
+//	struct_name_1 param_name_1:type1 param_name_2:type2=default_value_1
+// struct_table:
 //	[struct_name_1, ...]
+// param_table:
+//	[[param_name_1, param_name_2], ...]
 // count_of_param:
 //	[2, ...]
+
+func DefineStruct(vm *VM) {}
